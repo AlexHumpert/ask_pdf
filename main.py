@@ -1,4 +1,6 @@
 import streamlit as st
+import requests
+import os
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
@@ -7,8 +9,6 @@ from langchain.document_loaders import PyPDFLoader
 from langchain.docstore.document import Document
 from langchain.chains import RetrievalQAWithSourcesChain
 from pdfminer.high_level import extract_pages
-import requests
-import os
 from langchain.llms import OpenAI
 
 # Create directory if it doesn't exist
