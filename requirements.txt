@@ -1,7 +1,8 @@
 streamlit
-openai
 langchain
-pdfminer
+openai
+chromadb
+pdfminer.six
 requests
 
 
