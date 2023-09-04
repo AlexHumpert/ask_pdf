@@ -1,6 +1,4 @@
-python
-openai
 langchain
 pdfminer
 requests
-os
+
