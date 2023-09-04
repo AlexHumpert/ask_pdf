@@ -1,4 +1,4 @@
-langchain
-pdfminer
-requests
+langchain==0.0.279
+pdfminer==20191125
+requests==2.31.0
 
