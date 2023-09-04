@@ -1,0 +1,4 @@
+langchain
+pdfminer
+requests
+os
